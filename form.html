@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="form.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Poppins&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <header>
+        <h1><u>Form</u></h1>
+    </header>
+    <form action="welcome.html">
+    <div class="name">
+        <input type="text" placeholder="First Name" required>
+        <input type="text" placeholder="Last Name" required>
+    </div>
+    <div class="email">
+        <input type="email" placeholder="Work Email" required>
+        <input type="text" placeholder="Company" required>
+
+    </div>
+    <div class="select">
+        <select name="industry" id="" required>
+                <option value="specbee" hidden="selected">Industry</option>
+            <option value="specbee">specbee</option>
+            <option value="codecraft">codecraft</option>
+            <option value="musigma">musigma</option>
+        </select>
+        <select name="function" id="" required>
+                <option value="acounting" hidden="selected">Job Function</option>
+            <option value="acounting">acounting</option>
+            <option value="tester">tester</option>
+            <option value="programmer">programmer</option>
+        </select>
+    </div>
+    <div class="phone">
+        <input type="tel" placeholder="phone number">
+        <select name="country" id="" required>
+            <option value="india" hidden="selected">Country</option>
+            <option value="india">india</option>
+            <option value="pakistan">pakistan</option>
+            <option value="usa">usa</option>
+            <option value="chaina">chaina</option>
+            <option value="japan">japan</option>
+            <option value="lanka">shrilanka</option>
+        </select>
+    </div>
+    <div class="check">
+        <input type="checkbox">Yes,i would like to receive updates and information about acquia.
+    </div>
+    <button class="button">Submit</button>
+    </form>
+    </center>
+</body>
+</html>
